@@ -23,6 +23,7 @@ public:
   Vector2 operator - (const Vector2&) const {}
   Vector2 operator * (const double&) const {}
   double operator * (const Vector2&) const {}
+  bool operator == (const Vector2&) const {}
 
   friend ostream& operator << (ostream&, const Vector2&) {}
 };
